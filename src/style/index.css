@@ -142,11 +142,12 @@ a.readmore {
 }
 .tuwen li b {
 	overflow: hidden;
-	width: 100%;
+	width: 215px;
 	font-weight: normal;
 	color: #333;
 	font-size: 14px;
-	line-height: 30px
+	line-height: 30px;
+	display: inline-block;
 }
 .tuwen li span {
 	color: #999;
@@ -161,6 +162,13 @@ a.readmore {
 }
 .tulanmu a {
 	color: #999;
+}
+.tulanmu .author {
+	display: inline-block;
+	width: 100px;
+	overflow: hidden;
+	font-style: normal;
+	text-indent: 5px;
 }
 .tulanmu a:hover {
 	color: #066

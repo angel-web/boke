@@ -8,7 +8,7 @@ class NavBar extends React.Component {
         <div  className="navigation">
           <ul className="menu">
             <li>
-              <Link to="/home" >网站首页</Link>
+              <Link to="/home" >文章推荐</Link>
             </li>
             <li><a href="javascript: void(0)">关于我</a>
               <ul>
@@ -31,10 +31,10 @@ class NavBar extends React.Component {
               </ul>
             </li>
             <li>
-              <Link to="/newslistpic">技术文章</Link>
+              <Link to="/article">技术文章</Link>
             </li>
             <li>
-              <Link to="/newslistpic">给我留言</Link>
+              <Link to="/leaveword">给我留言</Link>
             </li>
           </ul>
         </div>

@@ -7,7 +7,7 @@ class Main extends React.Component {
         <header>
           <div className="headtop" />
           <div className="contenttop">
-            <div className="logo f_l">个人博客模板古典系列之——江南墨卷</div>
+            <div className="logo f_l">小白世界——江南墨卷</div>
             <div className="search f_r">
               <form method="post" name="searchform" id="searchform">
                 <input name="keyboard" id="keyboard" className="input_text" defaultValue="请输入关键字" type="text" />
@@ -63,7 +63,7 @@ class Main extends React.Component {
               <ul>
                 {
                   [1, 2, 3, 4].map(item => {
-                    return <li key={item}><a href="/"><img src={require(`../../images/0${item}.jpg`)} /><b>住在手机里的朋友</b></a>
+                    return <li key={item}><a href="/"><img src={require(`../../images/0${item}.jpg`)} /><b>{item}住在手机里的朋友</b></a>
                       <p><span className="tulanmu"><a href="/">手机配件</a></span><span className="tutime">2015-02-15</span></p>
                     </li>;
                   })
@@ -93,11 +93,13 @@ class Main extends React.Component {
         <div className="jzend" />
           <footer>
             <div className="footer">
-              <div className="f_l">
-                <p>All Rights Reserved 版权所有：<a href="http://www.yangqq.com">杨青个人博客</a> 备案号：蜀ICP备00000000号</p>
+              <div>
+                <p style={{textAlign: 'center'}}>备案号：豫ICP备17050473</p>
               </div>
-              <div className="f_r textr">
-                <p>Design by DanceSmile</p>
+              <div>
+                <p style={{textAlign: 'center'}}>
+                  本网站样式来源于<a style={{color: '#ccc'}} href="http://www.yangqq.com/download/div/2017-07-16/785.html" target="_blank">杨青个人博客模板</a>
+                </p>
               </div>
             </div>
           </footer>
